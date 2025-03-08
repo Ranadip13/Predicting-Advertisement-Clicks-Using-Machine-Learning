@@ -39,7 +39,7 @@ The flow of the case study is as below:
 - Year: Which year the data is collected
 - Clicked: 0 means not clicked and 1 means that user clicked the Ad.
 
-  Following the above steps, various classification machine learning algorithms were tried, including Logistic Regression, Decision Trees, Random Forest, AdaBoost, KNN, Support Vector Machines (SVM), and Naive Bayes, and their average accuracies were calculated. In this case, multiple algorithms produced similar average accuracy. Therefore, any one of them could be chosen. Adaboost is chosen as the final model due to its speed and effective use of predictors, as observed in its variable importance chart. It ensures that no single predictor dominates the decision, which is beneficial.
+Following the above steps, various classification machine learning algorithms were tried, including Logistic Regression, Decision Trees, Random Forest, AdaBoost, KNN, Support Vector Machines (SVM), and Naive Bayes, and their average accuracies were calculated. In this case, multiple algorithms produced similar average accuracy. Therefore, any one of them could be chosen. Adaboost is chosen as the final model due to its speed and effective use of predictors, as observed in its variable importance chart. It ensures that no single predictor dominates the decision, which is beneficial.
 
 To deploy the model, the following steps are followed:
 1.	Train the model using 100% of the available data.
